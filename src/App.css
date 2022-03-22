@@ -37,16 +37,15 @@
     }
 }
 
-.info {
-    width: 250px;
-    height: 150px;
-    border: 2px solid yellowgreen;
-    border-radius: 20px;
-    text-align: center;
-}
-
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+}
+
+.countries {
+    width: 400px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 20px;
 }
